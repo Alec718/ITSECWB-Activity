@@ -585,13 +585,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Payment gateway\nis partially trusted",
+              "name": "Payment gateway\nis partially trusted; output still must\nbe validated",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Payment gateway\nis partially trusted"
+              "Payment gateway\nis partially trusted; output still must\nbe validated"
             ],
             "id": "ead9c628-7536-454e-9ffc-090e8003bd92",
             "source": {
