@@ -1797,6 +1797,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1880,7 +1881,6 @@
               ]
             },
             "id": "a2b793a1-fd31-4fe6-8936-2cd8ee193486",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Manager",
@@ -1914,6 +1914,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1997,7 +1998,6 @@
               ]
             },
             "id": "763d50e2-fa47-40d2-8029-c5775a0e9796",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web App Server",
@@ -2107,6 +2107,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2190,7 +2191,6 @@
               ]
             },
             "id": "789691f0-5ea7-4920-965b-e344949ed61a",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -2511,13 +2511,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Manager not Trusted",
+              "name": "Manager not Trusted; Output must be validated",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Manager not Trusted"
+              "Manager not Trusted; Output must be validated"
             ],
             "id": "b02250a4-81af-479b-a904-0110e82c97bf",
             "source": {
@@ -2533,7 +2533,17 @@
                 "x": 680,
                 "y": 290
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       },
