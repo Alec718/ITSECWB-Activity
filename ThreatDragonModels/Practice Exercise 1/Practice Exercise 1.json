@@ -988,6 +988,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1071,7 +1072,6 @@
               ]
             },
             "id": "68614698-98d4-4ca0-bb6b-701386199312",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Barista",
@@ -1123,6 +1123,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1206,7 +1207,6 @@
               ]
             },
             "id": "f76cc802-a7b0-4dfc-8949-ca0018cfb8c5",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web App Server",
@@ -1335,6 +1335,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1418,7 +1419,6 @@
               ]
             },
             "id": "ba59a55a-6753-460e-8268-f276c1bd9e55",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -1667,13 +1667,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Baristas are not trusted",
+              "name": "Baristas are not trusted; \noutputs must be validated",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Baristas are not trusted"
+              "Baristas are not trusted; \noutputs must be validated"
             ],
             "id": "dcb460d5-a2ec-479f-a45e-7a960062dae5",
             "source": {
