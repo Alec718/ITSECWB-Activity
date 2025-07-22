@@ -2544,11 +2544,701 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 310,
+              "y": 220
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Administrator"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3abcccbf-a4a5-4ee4-ae1e-da0dac27c7e9"
+                },
+                {
+                  "group": "right",
+                  "id": "75fa4f0e-b6e1-48c4-8bb3-b088133d9700"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6bdd99a2-05bf-446f-8cf9-14a049b95c56"
+                },
+                {
+                  "group": "left",
+                  "id": "70cbc05b-bf37-426d-bf53-f0460ce33d4e"
+                }
+              ]
+            },
+            "id": "15c786c6-7a26-44c5-ba60-2a76b7327f35",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Administrator",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "97741c5d-41a5-49d6-ab73-bb6f3e0f15e5",
+                  "title": "T-009 Staff Action Repudiation",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Repudiation",
+                  "description": "Staff members (Barista, Manager, Administrator) could deny performing\nactions if audit logs are insufficient, not immutable, or can be tampered\nwith.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 39,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 680,
+              "y": 40
+            },
+            "size": {
+              "width": 120,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Web App Server"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f5cfe043-3f60-4be7-820f-e07f9f17dd49"
+                },
+                {
+                  "group": "right",
+                  "id": "1ae12b83-747a-4327-811e-f55a5f2bbbea"
+                },
+                {
+                  "group": "bottom",
+                  "id": "be864cdb-6a75-4ebe-8f49-bcf84cde3cb5"
+                },
+                {
+                  "group": "left",
+                  "id": "7f4ad620-ccaa-4733-bd90-c94488cc19fb"
+                }
+              ]
+            },
+            "id": "8b29aeed-aac7-4a74-a28b-1f65c32d0ae7",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Web App Server",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "6d8826db-bcb3-4e7d-9491-e9f83ff3f417",
+                  "title": "T-002 Staff Account Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker could impersonate staff to manipulate order statuses,\naccess sales reports, or modify menu items and application\nconfigurations.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                },
+                {
+                  "id": "724f9da1-0cc9-47bb-af6a-1536650e6e9f",
+                  "title": "T-003 Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user\ncredentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                },
+                {
+                  "id": "4cf95ed5-89f6-4880-bef3-b1e4696f0904",
+                  "title": "T-005 Menu Data Tampering",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An attacker could alter menu item data (e.g., prices or descriptions)\nbefore it is stored in the database.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": ""
+                },
+                {
+                  "id": "02053938-06e2-494e-93a9-22f68b39bd27",
+                  "title": "T-006 Sales Report Tampering",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "Unauthorized individuals could alter sales data in the MongoDB\nDatabase, leading to falsified reports.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": ""
+                },
+                {
+                  "id": "7a4ebb17-ba56-4cef-ab94-45a0660320b0",
+                  "title": "T-007 Application Code/Configuration Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Malicious modification of the application’s source code, server\nconfigurations, or environment variables could introduce backdoors or\ndisable security features.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": ""
+                },
+                {
+                  "id": "298a14fd-565e-4f7b-aa3f-8c862b2b35ed",
+                  "title": "T-014 Web Application Server DoS",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "An attacker could flood the Web Application Server with excessive\nrequests, making it unavailable.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 40,
+                  "score": ""
+                },
+                {
+                  "id": "109e0f3e-76d7-4f00-8733-bfd2ce2c8369",
+                  "title": "T-016 Barista/Manager to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "A Barista or Manager could exploit a vulnerability to gain Administrator\nprivileges.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 42,
+                  "score": ""
+                },
+                {
+                  "id": "95bba5d6-f115-4655-886b-4dfe895a91f1",
+                  "title": "T-018 Horizontal Privilege Escalation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Gaining unauthorized access to another user’s account within the same\nprivilege level. ",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 43,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "tampering": 3,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 2
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 680,
+              "y": 349
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "MongoDB"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "336e33f8-440e-4a2e-a8b3-0eb4a8466bb8"
+                },
+                {
+                  "group": "right",
+                  "id": "66ccf908-c4fb-46b8-b642-faa697b71bc1"
+                },
+                {
+                  "group": "bottom",
+                  "id": "553b4475-6f6b-4117-9447-27fa299cfbe0"
+                },
+                {
+                  "group": "left",
+                  "id": "a80b4269-acc2-4ccd-ab42-49444fd673f1"
+                }
+              ]
+            },
+            "id": "71a38ca9-2978-40b2-843a-36beb3a1963a",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Store",
+              "name": "MongoDB",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "8e66555d-befe-4604-8cd8-36da79d04a37",
+                  "title": "T-015 MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "Malicious or poorly optimized queries could overload the database,\nmaking it unresponsive.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login credentials \nand action requests",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Login credentials \nand action requests"
+            ],
+            "id": "d06a7a5e-79c8-4290-9e6d-f85d83bfa4c5",
+            "source": {
+              "cell": "15c786c6-7a26-44c5-ba60-2a76b7327f35",
+              "port": "75fa4f0e-b6e1-48c4-8bb3-b088133d9700"
+            },
+            "target": {
+              "cell": "8b29aeed-aac7-4a74-a28b-1f65c32d0ae7",
+              "port": "7f4ad620-ccaa-4733-bd90-c94488cc19fb"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "CRUD data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "CRUD data"
+            ],
+            "id": "1db4a023-f57d-423b-afd0-86718ed72db7",
+            "source": {
+              "cell": "8b29aeed-aac7-4a74-a28b-1f65c32d0ae7",
+              "port": "be864cdb-6a75-4ebe-8f49-bcf84cde3cb5"
+            },
+            "target": {
+              "cell": "71a38ca9-2978-40b2-843a-36beb3a1963a",
+              "port": "336e33f8-440e-4a2e-a8b3-0eb4a8466bb8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response shown \nto administrator",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Response shown \nto administrator"
+            ],
+            "id": "9a61f2f0-284b-4d57-af73-a6f054769641",
+            "source": {
+              "cell": "8b29aeed-aac7-4a74-a28b-1f65c32d0ae7",
+              "port": "7f4ad620-ccaa-4733-bd90-c94488cc19fb"
+            },
+            "target": {
+              "cell": "15c786c6-7a26-44c5-ba60-2a76b7327f35",
+              "port": "3abcccbf-a4a5-4ee4-ae1e-da0dac27c7e9"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "External output must be validated",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "External output must be validated"
+            ],
+            "id": "d72eae96-d050-40c7-850a-b29ae8c398b1",
+            "source": {
+              "x": 690,
+              "y": -10
+            },
+            "target": {
+              "x": 650,
+              "y": 500
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 230
+              }
+            ]
+          }
+        ]
       }
     ],
     "diagramTop": 4,
     "reviewer": "Ms. Katrina Solomon",
-    "threatTop": 33
+    "threatTop": 43
   }
 }
